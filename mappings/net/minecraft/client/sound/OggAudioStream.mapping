@@ -36,8 +36,8 @@ CLASS net/minecraft/unmapped/C_osybdcpo net/minecraft/client/sound/OggAudioStrea
 		ARG 3 rightStartIndex
 		ARG 4 samplesToWrite
 		ARG 6 sampleOutput
-	METHOD m_nceiwgbq isInvalid (I)Z
+	METHOD m_nceiwgbq invalid (I)Z
 		ARG 0 state
-	METHOD m_sszxrscr isFinished ()Z
+	METHOD m_sszxrscr finished ()Z
 	METHOD m_vdfmjcwj getPacket (Lcom/jcraft/jogg/Page;)Lcom/jcraft/jogg/Packet;
 		ARG 1 page
