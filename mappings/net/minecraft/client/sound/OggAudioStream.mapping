@@ -19,9 +19,9 @@ CLASS net/minecraft/unmapped/C_osybdcpo net/minecraft/client/sound/OggAudioStrea
 		ARG 1 channelCount
 		ARG 2 startIndexes
 		ARG 3 samplesToWrite
-		ARG 5 sampleOutput
+		ARG 5 output
 	METHOD m_bimljqtb readPage ()Lcom/jcraft/jogg/Page;
-	METHOD m_bywsuebv getSamplesToWrite (I)J
+	METHOD m_bywsuebv getSampleToWrite (I)J
 		ARG 1 samples
 	METHOD m_bzwaelxt getRawAudio ()Lcom/jcraft/jogg/Packet;
 	METHOD m_eeeoajbz readMono ([FIJLit/unimi/dsi/fastutil/floats/FloatConsumer;)V
@@ -35,7 +35,7 @@ CLASS net/minecraft/unmapped/C_osybdcpo net/minecraft/client/sound/OggAudioStrea
 		ARG 2 rightBuf
 		ARG 3 rightStartIndex
 		ARG 4 samplesToWrite
-		ARG 6 sampleOutput
+		ARG 6 output
 	METHOD m_nceiwgbq isInvalid (I)Z
 		ARG 0 state
 	METHOD m_sszxrscr isFinished ()Z
